@@ -1,0 +1,5 @@
+Planta 1, área: 100.0 m²
+    Dormitorio, cuadrado, con 100.0 m²
+Planta 0, área: 120.0 m²
+    Habitación, rectangular con 20.0 m²
+    Dormitorio, cuadrado, con 100.0 m²

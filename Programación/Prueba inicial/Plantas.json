@@ -1,0 +1,25 @@
+[
+  {
+    "numeroPlanta": 1,
+    "zonas": [
+      {
+        "lado": 10.0,
+        "nombre": "Dormitorio"
+      }
+    ]
+  },
+  {
+    "numeroPlanta": 0,
+    "zonas": [
+      {
+        "largo": 10.0,
+        "ancho": 2.0,
+        "nombre": "Habitación"
+      },
+      {
+        "lado": 10.0,
+        "nombre": "Dormitorio"
+      }
+    ]
+  }
+]
