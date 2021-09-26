@@ -106,7 +106,7 @@ article, section {
     margin-right: auto;
     max-width: 800px;
     margin-bottom: 100px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 span {
@@ -148,6 +148,7 @@ article h3 {
 
 .caja-board {
     width: 80%;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -171,7 +172,12 @@ article h3 {
     margin-left: 20px;
 }
 
+.board-text h4 {
+    color: white;
+}
+
 .grupo-boards {
+    height: 400px;
     width: 49%;
     display: inline-block;
     min-width: 480px;
