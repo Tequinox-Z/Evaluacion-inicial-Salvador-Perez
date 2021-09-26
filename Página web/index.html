@@ -13,7 +13,7 @@
         <img src="img/icon.png">
     </header>
     <nav>
-        <ul>
+        <ul id="menu">
             <li>
                 <a href="#top">Inicio</a>
             </li>
@@ -25,6 +25,9 @@
             </li>
             <li>
                 <a href="#article-4">Proyectos</a>
+            </li>
+            <li id="registro_boton">
+                <a href="HTML/formulario.html">Login</a>
             </li>
 
         </ul>
@@ -38,104 +41,153 @@
         </section>
     </article>
     <article id="article-2">
-        <h3>Modelos</h3>
-        <p>
-            Actualmente existen diversos modelos de arduino, puede elegir dependiendo de sus <span>características</span> o <span>necesidades</span>, estos son, entre los modelos oficiales, los más destacados.
-        </p>
-
-        <div id="boards">
-    
-            <div class="grupo-boards">
-                <div class="caja-board">
-                    <img class="board-img" src="img/boards/uno.png">
-                    <div class="board-text">
-                        <h4>Arduino uno</h4>
-                        <p>Perfecto para empezar con proyectos básicos de electrónica</p>
+        <section>
+            <h3>Modelos</h3>
+            <p>
+                Actualmente existen diversos modelos de arduino, puede elegir dependiendo de sus <span>características</span> o <span>necesidades</span>, estos son, entre los modelos oficiales, los más destacados.
+            </p>
+            <div id="boards">
+                <div class="grupo-boards">
+                    <div class="caja-board">
+                        <img class="board-img" src="img/boards/uno.png">
+                        <div class="board-text">
+                            <h4>Arduino uno</h4>
+                            <p>Si es tu primera experiencia con la plataforma Arduino, la Arduino UNO es la opción mas robusta, mas usada y con mayor cantidad de documentación de toda la familia Arduino.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="caja-board">
+                        <img class="board-img" src="img/boards/leonardo.png">
+                        <div class="board-text">
+                            <h4>Arduino Leonardo</h4>
+                            <p>Una placa de desarrollo basada en el microcontrolador ATmega32u4. Tiene 20 pines de entrada/salida digital (7 de ellos pueden ser usados como salida PWM), un cristal de 16Mhz, conexión micro USB, conector DC de alimentación, conector ICSP y botón de reseteo.</p>
+                        </div>
                     </div>
                 </div>
-    
-                <div class="caja-board">
-                    <img class="board-img" src="img/boards/leonardo.png">
-                    <div class="board-text">
-                        <h4>Arduino Leonardo</h4>
-                        <p>Perfecto para empezar con proyectos básicos de electrónica</p>
+                <div class="grupo-boards">
+                    <div class="caja-board">
+                        <img class="board-img" src="img/boards/esplora.png">
+                        <div class="board-text">
+                            <h4>Arduino Esplora</h4>
+                            <p>El Arduino Esplora es una placa electronica derivada de la Arduino Leonardo. El Esplora difiere de todas las placas Arduino precedentes, en el que proporciona un número de sensores de a bordo listos para trabajar con ellos.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="caja-board">
+                        <img class="board-img" src="img/boards/101.png">
+                        <div class="board-text">
+                            <h4>Arduino 101</h4>
+                            <p>Arduino 101 es una placa de hardware libre, fruto de la unión de Intel con el proyecto Arduino.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="grupo-boards">
-                <div class="caja-board">
-                    <img class="board-img" src="img/boards/esplora.png">
-                    <div class="board-text">
-                        <h4>Arduino Esplora</h4>
-                        <p>Perfecto para empezar con proyectos básicos de electrónica</p>
-                    </div>
-                </div>
-    
-                <div class="caja-board">
-                    <img class="board-img" src="img/boards/101.png">
-                    <div class="board-text">
-                        <h4>Arduino 101</h4>
-                        <p>Perfecto para empezar con proyectos básicos de electrónica</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </article>
     <article id="article-3">
-        <h3>Características</h3>
-        <p>Los componentes principales de estas placas de desarrollo son el <span>procesador</span> y la <span>memoria interna</span>. En cuanto al procesador a más núcleos, frecuencia e IPC más velocidad de ejecución conseguiremos y más rendimiento multihilo.</p>
-        <table id="tabla-modelos">
-            <tr>
-                <th>Modelo</th>
-                <th>Procesador</th>
-                <th>Memoria</th>
-            </tr>
-            <tr>
-                <td>
-                    Uno
-                </td>
-                <td>
-                    ATmega328P
-                </td>
-                <td>
-                    32 KB
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Leonardo
-                </td>
-                <td>
-                    ATmega32U4
-                </td>
-                <td>
-                    32 KB
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    101
-                </td>
-                <td>
-                    Intel Curie	
-                </td>
-                <td>
-                    196 KB
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    196
-                </td>
-                <td>
-                    ATmega32U4
-                </td>
-                <td>
-                    32 KB
-                </td>
-            </tr>
-        </table>
+        <section>
+            <h3>Características</h3>
+            <p>Los componentes principales de estas placas de desarrollo son el <span>procesador</span> y la <span>memoria interna</span>. En cuanto al procesador a más núcleos, frecuencia e IPC más velocidad de ejecución conseguiremos y más rendimiento multihilo.</p>
+            <table id="tabla-modelos">
+                <tr>
+                    <th>Modelo</th>
+                    <th>Procesador</th>
+                    <th>Memoria</th>
+                </tr>
+                <tr>
+                    <td>
+                        Uno
+                    </td>
+                    <td>
+                        ATmega328P
+                    </td>
+                    <td>
+                        32 KB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Leonardo
+                    </td>
+                    <td>
+                        ATmega32U4
+                    </td>
+                    <td>
+                        32 KB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        101
+                    </td>
+                    <td>
+                        Intel Curie	
+                    </td>
+                    <td>
+                        196 KB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        196
+                    </td>
+                    <td>
+                        ATmega32U4
+                    </td>
+                    <td>
+                        32 KB
+                    </td>
+                </tr>
+            </table>
+        </section>
     </article>
+    <article id="article-4">
+        <section>
+            <h3>Proyectos</h3>
+            <p>
+                Con arduino, se pueden realizar miles de proyectos uniendo el mundo de la electrónica con el de la informática, así como proyectos <span>IOT</span> e incluso <span>domótica</span>, el único límite es tu imaginación. Aquí os mostramos algunos proyectos realizados con Arduino
+            </p>
+            <div id="projects">
+                <div class="iframe-box">
+                    <iframe src="https://www.youtube.com/embed/ybZDmEITIyE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                    <h4>IOT Cloud</h4>
+                </div>
+                <div class="iframe-box">
+                    <iframe src="https://www.youtube.com/embed/B2lwaLmHDEI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                    <h4>Grua con servomotores</h4>
+                </div>
+                <div class="iframe-box">
+                    <iframe src="https://www.youtube.com/embed/jSP4PnbfL1U" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                    <h4>Arduino LCD Menú</h4>
+                </div>
+                <div class="iframe-box">
+                    <iframe src="https://www.youtube.com/embed/QhBVmEGs7jo"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h4>RGB LED RF Remote</h4>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <div id="footer-1">
+            <ul id="ul-footer">
+                <li>
+                    <a href="https://www.arduino.cc/">Arduino web Oficial</a>
+                </li>
+                <li>
+                    <a href="https://github.com/salvadorprog">Salvadorprog - Github</a>
+                </li>
+                <li>
+                    <p>Correo: txaxati2018@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <div id="footer-2">
+            <img src="img/icon.png">
+        </div>
+        <div id="footer-3">
+            Copyright 2021 - 2022
+        </div>
+    </footer>
 </body>
 </html>
